@@ -1,6 +1,6 @@
 package de.maxim.testplugin.listener.player;
 
-import de.maxim.testplugin.MainClass;
+import de.maxim.testplugin.Tab;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -15,8 +15,8 @@ public class PlayerJoinListener implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
-        Bukkit.getScheduler().scheduleSyncRepeatingTask(MainClass.getInstance(), () -> {
-            MainClass.getInstance().getTabUtil().sendTab(player, "Dies ist die Tab", MainClass.getInstance().getTimeUtil().getTimeString());
+        Bukkit.getScheduler().scheduleSyncRepeatingTask(Tab.getInstance(), () -> {
+            Tab.getInstance().getTabUtil().sendTab(player, "Dies ist die Tab", Tab.getInstance().getTimeUtil().getTimeString());
         }, 0, 10);
     }
 }

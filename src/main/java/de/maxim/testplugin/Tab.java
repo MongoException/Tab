@@ -11,10 +11,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 /**
  * Erstellt von Boss
  */
-public class MainClass extends JavaPlugin {
+public class Tab extends JavaPlugin {
 
     @Getter
-    private static MainClass instance;
+    private static Tab instance;
 
     @Getter
     private TabUtil tabUtil;
