@@ -1,4 +1,4 @@
 name: TestPlugin
 version: 1.0
 auhtor: Maxim
-main: de.maxim.testplugin.Tab
+main: de.mats.testplugin.Tab

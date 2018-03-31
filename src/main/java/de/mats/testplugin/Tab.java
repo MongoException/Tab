@@ -1,8 +1,8 @@
-package de.maxim.testplugin;
+package de.mats.testplugin;
 
-import de.maxim.testplugin.listener.player.PlayerJoinListener;
-import de.maxim.testplugin.utils.TabUtil;
-import de.maxim.testplugin.utils.TimeUtil;
+import de.mats.testplugin.listener.player.PlayerJoinListener;
+import de.mats.testplugin.utils.TabUtil;
+import de.mats.testplugin.utils.TimeUtil;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;

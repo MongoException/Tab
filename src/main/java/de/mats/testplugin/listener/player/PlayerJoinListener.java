@@ -1,6 +1,6 @@
-package de.maxim.testplugin.listener.player;
+package de.mats.testplugin.listener.player;
 
-import de.maxim.testplugin.Tab;
+import de.mats.testplugin.Tab;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

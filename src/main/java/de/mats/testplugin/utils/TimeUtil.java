@@ -1,4 +1,4 @@
-package de.maxim.testplugin.utils;
+package de.mats.testplugin.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

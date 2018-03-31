@@ -1,4 +1,4 @@
-package de.maxim.testplugin.utils;
+package de.mats.testplugin.utils;
 
 import net.minecraft.server.v1_8_R3.ChatMessage;
 import net.minecraft.server.v1_8_R3.IChatBaseComponent;
